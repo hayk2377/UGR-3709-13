@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header header--background">
+      <div class="center">
+        <nav class="header__nav">
+          <img
+            class="header__logo"
+            src="images/hayktur-logo.jpg"
+            alt="hayktur logo"
+            width="32px"
+            height="32px"
+          />
+          <div class="header__links">
+            <a class="header__link" href="index.html">home</a>
+            <a class="header__link" href="rent.html">rent</a>
+            <a class="header__link" href="cars.html">cars</a>
+            <a class="header__link" href="about.html">about</a>
+            <a class="header__link header__link--current" href="contact.html"
+              >contact</a
+            >
+          </div>
+        </nav>
+        <h1 class="h1">We would love to hear from you!</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="center">
+        <form
+          class="form"
+          action="mailto:haykelmuktar@gmail.com"
+          enctype="text/plain"
+          method="post"
+        >
+          <div class="form__element-container">
+            <div class="form__element">
+              <label for="firstName2">First Name</label>
+              <input type="text" name="firstName" id="firstName2" required />
+            </div>
+            <div class="form__element">
+              <label for="lastName2">Last Name</label>
+              <input type="text" name="lastName" id="lastName2" required />
+            </div>
+
+            <div class="form__element">
+              <label class="form__label" for="email">Email Address</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+          </div>
+
+          <div class="form__element">
+            <label class="form__label form__label--line" for="message"
+              >Message</label
+            >
+            <textarea
+              class="form__text-area"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+
+          <button class="form__submit-button">Send</button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="center">
+        <div class="footer__column-container">
+          <div class="footer__column">
+            <h2 class="footer__column-title">our offers</h2>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a class="footer__link" href="cars.html">cars</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="rent.html">rent</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column-title">company info</h2>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a class="footer__link" href="about.html">about</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column-title">social links</h2>
+            <ul class="footer__menu footer__menu--flat">
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://www.facebook.com/"
+                  ><img
+                    class="footer__icon"
+                    src="images/fb.png"
+                    alt="facebook"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://www.instagram.com/"
+                  ><img
+                    class="footer__icon"
+                    src="images/ig.jpeg"
+                    alt="instagram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://telegram.org/"
+                  ><img
+                    class="footer__icon"
+                    src="images/tg.jpeg"
+                    alt="telegram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://www.whatsapp.com/"
+                  ><img
+                    class="footer__icon"
+                    src="images/wa.png"
+                    alt="whatsapp"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column-title">legal</h2>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">hayktur™</li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="privacy.html"
+                  >privacy statement</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="center">
+        <nav class="header__nav">
+          <img
+            class="header__logo"
+            src="images/hayktur-logo.jpg"
+            alt="hayktur logo"
+            width="32px"
+            height="32px"
+          />
+          <div class="header__links">
+            <a class="header__link" href="index.html">home</a>
+            <a class="header__link" href="rent.html">rent</a>
+            <a class="header__link" href="cars.html">cars</a>
+            <a class="header__link header__link--current" href="about.html"
+              >about</a
+            >
+            <a class="header__link" href="contact.html">contact</a>
+          </div>
+        </nav>
+        <h1 class="h1">About Us</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="center">
+          <div class="split">
+            <div class="split__container">
+              <div>
+                <h2>History</h2>
+                <p>
+                  Our mission is to rent cars for tourists that want to visit
+                  Ethiopia. Hayktur first started in 2005 as a tourist guide
+                  company.
+                </p>
+
+                <p>
+                  Haykel, with other family members started to notice the lack
+                  of roads in many place in the country. Due to the lack of
+                  vehicles, many magnificent places were out of reach for most
+                  tourists. After noticing this gap, Hayktur pivoted to renting
+                  vehicles to tourists in 2010.
+                </p>
+              </div>
+              <div>
+                <p>Here is the pitch he gave to a couple of investors.</p>
+                <audio controls>
+                  <source src="audios/pitch.mp3" type="audio/mp3" />
+                  <track
+                    src="captions/pitch.vtt"
+                    label="English"
+                    kind="captions"
+                    srclang="en"
+                    default
+                  />
+                </audio>
+
+                <div class="transcript">
+                  <button id="showButton2" class="transcript__button">
+                    Show Transcript
+                  </button>
+                  <button
+                    id="hideButton2"
+                    class="transcript__button transcript__button--hidden"
+                  >
+                    Hide Transcript
+                  </button>
+
+                  <ul
+                    id="transcript2"
+                    class="transcript__text transcript__text--hidden"
+                  >
+                    <li>0:00 I know you are looking at me right now</li>
+                    <li>0:01 And you thinking my my...</li>
+                    <li>0:03 A good looking fella.</li>
+                    <li>0:05 But i am not, am not just.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="split__container">
+              <figure class="image-container">
+                <img
+                  class="image-container__image"
+                  src="images/office.jpeg"
+                  alt="office building"
+                />
+                <figcaption>our office building</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--background">
+        <div class="center">
+          <div class="split">
+            <div class="split__container">
+              <h2>Growth</h2>
+              <p>
+                The popularity of the company had soared in the first year.
+                Subsequently, its income has been increasing substantially.
+              </p>
+            </div>
+
+            <div class="split__container">
+              <table class="table">
+                <tr>
+                  <th class="table__cell">Year</th>
+                  <th class="table__cell">Tourists Served</th>
+                </tr>
+                <tr>
+                  <td class="table__cell">2010</td>
+                  <td class="table__cell">27</td>
+                </tr>
+                <tr>
+                  <td class="table__cell">2011</td>
+                  <td class="table__cell">89</td>
+                </tr>
+                <tr>
+                  <td class="table__cell">2012</td>
+                  <td class="table__cell">535</td>
+                </tr>
+                <tr>
+                  <td class="table__cell">2013</td>
+                  <td class="table__cell">410</td>
+                </tr>
+                <tr>
+                  <td class="table__cell">2014</td>
+                  <td class="table__cell">529</td>
+                </tr>
+                <tr>
+                  <td class="table__cell">2015</td>
+                  <td class="table__cell">589</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="center">
+          <h2>Status</h2>
+          <p>
+            Our company has a staff of 152 employees. We have 123
+            <a href="cars.html">vehicles</a> ready to serve our customers.
+          </p>
+
+          <p>
+            We have branches all over the country. We are located in Addis
+            Ababa, BahirDar, Hawassa, and Mekele.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="center">
+        <div class="footer__column-container">
+          <div class="footer__column">
+            <h2 class="footer__column-title">our offers</h2>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a class="footer__link" href="cars.html">cars</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="rent.html">rent</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column-title">company info</h2>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a class="footer__link" href="about.html">about</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column-title">social links</h2>
+            <ul class="footer__menu footer__menu--flat">
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://www.facebook.com/"
+                  ><img
+                    class="footer__icon"
+                    src="images/fb.png"
+                    alt="facebook"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://www.instagram.com/"
+                  ><img
+                    class="footer__icon"
+                    src="images/ig.jpeg"
+                    alt="instagram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://telegram.org/"
+                  ><img
+                    class="footer__icon"
+                    src="images/tg.jpeg"
+                    alt="telegram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="https://www.whatsapp.com/"
+                  ><img
+                    class="footer__icon"
+                    src="images/wa.png"
+                    alt="whatsapp"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column-title">legal</h2>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">hayktur™</li>
+              <li class="footer__menu-item">
+                <a class="footer__link" href="privacy.html"
+                  >privacy statement</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

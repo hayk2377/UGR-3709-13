@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: lightblue;
+}
+
+.h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: white;
+}
+
+.center {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.two-column {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  background-color: rgba(5, 5, 94, 0.737);
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo-menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  display: none;
+  padding: 0 1rem;
+  color: white;
+}
+
+.header__link {
+  color: white;
+
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+.header__link--current {
+  border: 1px solid grey;
+  width: fit-content;
+  background-color: lightgreen;
+  border-radius: 0.2rem;
+}
+
+main {
+  padding: 5rem;
+}
+
+.footer {
+  background-color: grey;
+}
+
+.footer__column-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+
+.footer__menu {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 1rem;
+}
+
+.footer__menu--flat {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer__link {
+  text-decoration: none;
+}
+
+.transcript__button {
+  border: 1px solid green;
+  padding: 0.3rem;
+  background-color: lightgreen;
+}
+
+.transcript__button--hidden {
+  display: none;
+}
+
+.transcript__text--hidden {
+  display: none;
+}
+
+.image-container {
+  margin: 0; /*incase figures*/
+}
+
+.image-container__image,
+.video-container__video {
+  width: 100%;
+  object-fit: contain;
+}
+
+.form__element-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__element {
+  padding: 0.5rem 0;
+  background-color: lightblue;
+}
+.form__label--line {
+  display: block;
+}
+.form__text-area {
+  width: 100%;
+  height: 50vh;
+}
+
+.form__submit-button {
+  background-color: lightgreen;
+  color: black;
+  padding: 0.5rem;
+  border: none;
+}
+
+.cars {
+  border: 1px solid lightgreen;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.cars__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cars__car {
+  background-color: green;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.cars__info-order-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cars__order {
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.section--background {
+  background-color: lightgreen;
+}
+
+.table__cell {
+  padding: 0 1rem;
+  border: 1px solid grey;
+}
+
+@media screen and (min-width: 768px) {
+  .split {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10vw;
+  }
+
+  .split__container {
+    flex: 1;
+  }
+
+  .center {
+    width: 80%;
+  }
+
+  .footer__column-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form__text-area {
+    width: 50%;
+  }
+}
