@@ -1,0 +1,27 @@
+.hero-title {
+  font-size: clamp(3rem, 10vw, 7rem);
+  background-image: linear-gradient(to right, lightgreen, white, lightgreen);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  padding: 4rem 0;
+
+  animation-name: bg-moving;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bg-moving {
+  0% {
+    background-position: 0;
+  }
+
+  50% {
+    background-position: 50vw;
+  }
+
+  100% {
+    background-position: 0vw;
+  }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="bs/css/bootstrap.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+  </head>
+  <body>
+    <header class="bg-primary">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/hayktur-logo.jpg"
+              alt="hayktur logo"
+              width="32px"
+              height="32px"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto py-sm-5 py-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link link-light active" href="index.html"
+                  >home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="rent.html">rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="cars.html">cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <h1 class="text-light py-5">About Us</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div>
+                <h2>History</h2>
+                <p>
+                  Our mission is to rent cars for tourists that want to visit
+                  Ethiopia. Hayktur first started in 2005 as a tourist guide
+                  company.
+                </p>
+
+                <p>
+                  Haykel, with other family members started to notice the lack
+                  of roads in many place in the country. Due to the lack of
+                  vehicles, many magnificent places were out of reach for most
+                  tourists. After noticing this gap, Hayktur pivoted to renting
+                  vehicles to tourists in 2010.
+                </p>
+              </div>
+              <div>
+                <p>Here is the pitch he gave to a couple of investors.</p>
+                <audio controls>
+                  <source src="audios/pitch.mp3" type="audio/mp3" />
+                  <track
+                    src="captions/pitch.vtt"
+                    label="English"
+                    kind="captions"
+                    srclang="en"
+                    default
+                  />
+                </audio>
+
+                <div>
+                  <button
+                    class="btn btn-secondary"
+                    data-bs-target="#transcript"
+                    data-bs-toggle="collapse"
+                  >
+                    Audio Transcript
+                  </button>
+                </div>
+                <div id="transcript" class="collapse">
+                  <ul
+                    id="transcript2"
+                    class="transcript__text transcript__text--hidden"
+                  >
+                    <li>0:00 I know you are looking at me right now</li>
+                    <li>0:01 And you thinking my my...</li>
+                    <li>0:03 A good looking fella.</li>
+                    <li>0:05 But i am not, am not just.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <figure>
+                <img
+                  class="image-fluid w-100 rounded"
+                  src="images/office.jpeg"
+                  alt="office building"
+                />
+                <figcaption>our office building</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-primary py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="text-light">Growth</h2>
+              <p class="text-light">
+                The popularity of the company had soared in the first year.
+                Subsequently, its income has been increasing substantially.
+              </p>
+            </div>
+
+            <div class="col-lg-6">
+              <table class="table table-primary rounded overflow-hidden">
+                <tr>
+                  <th>Year</th>
+                  <th>Tourists Served</th>
+                </tr>
+                <tr>
+                  <td>2010</td>
+                  <td>27</td>
+                </tr>
+                <tr>
+                  <td>2011</td>
+                  <td>89</td>
+                </tr>
+                <tr>
+                  <td>2012</td>
+                  <td>535</td>
+                </tr>
+                <tr>
+                  <td>2013</td>
+                  <td>410</td>
+                </tr>
+                <tr>
+                  <td>2014</td>
+                  <td>529</td>
+                </tr>
+                <tr>
+                  <td>2015</td>
+                  <td>589</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="d-flex flex-column align-items-center shadow p-2">
+            <h2>Status</h2>
+            <p>
+              Our company has a staff of 152 employees. We have 123
+              <a href="cars.html">vehicles</a> ready to serve our customers.
+            </p>
+
+            <p>
+              We have branches all over the country. We are located in Addis
+              Ababa, BahirDar, Hawassa, and Mekele.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2 class="text-light">our offers</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="link-light" href="cars.html">cars</a>
+              </li>
+              <li>
+                <a class="link-light" href="rent.html">rent</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="text-light">company info</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="link-light" href="about.html">about</a>
+              </li>
+              <li>
+                <a class="link-light" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="text-light">social links</h2>
+            <ul class="d-flex list-unstyled">
+              <li>
+                <a href="https://www.facebook.com/"
+                  ><img
+                    class="ms-1"
+                    src="images/fb.png"
+                    alt="facebook"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/"
+                  ><img
+                    class="ms-1"
+                    src="images/ig.jpeg"
+                    alt="instagram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.org/"
+                  ><img
+                    class="ms-1"
+                    src="images/tg.jpeg"
+                    alt="telegram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com/"
+                  ><img
+                    class="ms-1"
+                    src="images/wa.png"
+                    alt="whatsapp"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="text-light">legal</h2>
+            <ul class="list-unstyled">
+              <li class="text-light">hayktur™</li>
+              <li>
+                <a class="link-light" href="privacy.html">privacy statement</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="bs/js/bootstrap.js"></script>
+  </body>
+</html>

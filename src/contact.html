@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="bs/css/bootstrap.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="bg-primary">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/hayktur-logo.jpg"
+              alt="hayktur logo"
+              width="32px"
+              height="32px"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto py-sm-5 py-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link link-light active" href="index.html"
+                  >home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="rent.html">rent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="cars.html">cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-light" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <h1 class="text-light py-5">We Would Love To Hear From You!</h1>
+      </div>
+    </header>
+
+    <main>
+      <form>
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-7 form-floating mb-3">
+              <input
+                type="text"
+                id="firstName2"
+                class="form-control"
+                placeholder="First Name"
+                required
+              />
+              <label for="firstName2">First Name</label>
+            </div>
+            <div class="col-lg-7 form-floating mb-3">
+              <input
+                type="text"
+                id="lastName2"
+                class="form-control"
+                placeholder="Last Name"
+                required
+              />
+              <label for="lastName2">Last Name</label>
+            </div>
+
+            <div class="col-lg-7 form-floating mb-3">
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                placeholder="Email Address"
+                required
+              />
+              <label class="form__label" for="email">Email Address</label>
+            </div>
+
+            <div class="col-lg-7 form-floating mb-3">
+              <textarea
+                class="form-control"
+                id="message"
+                style="height: 18rem"
+                placeholder="Message"
+              ></textarea>
+              <label for="message">Message</label>
+            </div>
+
+            <div class="col-lg-7 text-center">
+              <button class="btn btn-primary">Send</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2 class="text-light">our offers</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="link-light" href="cars.html">cars</a>
+              </li>
+              <li>
+                <a class="link-light" href="rent.html">rent</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="text-light">company info</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a class="link-light" href="about.html">about</a>
+              </li>
+              <li>
+                <a class="link-light" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="text-light">social links</h2>
+            <ul class="d-flex list-unstyled">
+              <li>
+                <a href="https://www.facebook.com/"
+                  ><img
+                    class="ms-1"
+                    src="images/fb.png"
+                    alt="facebook"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/"
+                  ><img
+                    class="ms-1"
+                    src="images/ig.jpeg"
+                    alt="instagram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://telegram.org/"
+                  ><img
+                    class="ms-1"
+                    src="images/tg.jpeg"
+                    alt="telegram"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com/"
+                  ><img
+                    class="ms-1"
+                    src="images/wa.png"
+                    alt="whatsapp"
+                    width="24px"
+                    height="24px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="text-light">legal</h2>
+            <ul class="list-unstyled">
+              <li class="text-light">hayktur™</li>
+              <li>
+                <a class="link-light" href="privacy.html">privacy statement</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="contact.js"></script>
+    <script src="bs/js/bootstrap.js"></script>
+  </body>
+</html>
